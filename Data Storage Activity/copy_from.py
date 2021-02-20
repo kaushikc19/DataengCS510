@@ -8,14 +8,14 @@ import re
 import csv
 import pandas as pd
 
-DBname = "census"
-DBuser = "postgres1"
-DBpwd = "postgres"
+DBname = "datastorage"
+DBuser = "kaushik"
+DBpwd = "kaushik1"
 TableName = 'censusdata_copyfrom'
 Datafile = "acs2015_census_tract_data.csv"  # name of the data file to be loaded
 CreateDB = False  # indicates whether the DB table should be (re)-created
 Year = 2015
-tfile = "/home/hariev2/tempfile.csv"
+tfile = "/home/kaushik2/tempfile.csv"
 
 
 def initialize():

@@ -7,9 +7,9 @@ import argparse
 import re
 import csv
 
-DBname = "census"
-DBuser = "postgres1"
-DBpwd = "postgres"
+DBname = "datastorage"
+DBuser = "kaushik"
+DBpwd = "kaushik1"
 TableName = 'censusdata_temp'
 Datafile = "acs2015_census_tract_data.csv"  # name of the data file to be loaded
 CreateDB = False  # indicates whether the DB table should be (re)-created
